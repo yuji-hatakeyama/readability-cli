@@ -1,0 +1,12 @@
+{
+  "name": "readability-cli_devcontainer",
+  "dockerFile": "./Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig"
+  ]
+}
