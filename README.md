@@ -1,4 +1,4 @@
-[![docker](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/docker.yml/badge.svg)](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/docker.yml)
+[![dockerhub-latest](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/dockerhub-latest.yml/badge.svg)](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/dockerhub-latest.yml)
 
 # Readability CLI
 
