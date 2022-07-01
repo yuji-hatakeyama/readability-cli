@@ -1,12 +1,11 @@
-name: docker
-
+name: dockerhub-latest
 on:
   push:
     branches:
-      - 'main'
+      - main
 
 jobs:
-  docker:
+  build-push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
