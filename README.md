@@ -1,4 +1,6 @@
 [![dockerhub-latest](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/dockerhub-latest.yml/badge.svg)](https://github.com/yuji-hatakeyama/readability-cli/actions/workflows/dockerhub-latest.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hatake/readability-cli.svg)](https://hub.docker.com/r/hatake/readability-cli/)
+
 
 # Readability CLI
 
