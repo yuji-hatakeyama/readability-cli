@@ -15,7 +15,7 @@ https://hub.docker.com/r/hatake/readability-cli
 
 ## Uses
 
-```
+```console
 % docker run hatake/readability-cli --help
 
 readability-cli
@@ -32,7 +32,7 @@ Options
   -h, --help                     show help
 ```
 
-```
+```console
 % url="https://www.marca.com/en/world-cup/2022/06/14/62a8fcc246163fdc138b45f1.html"; curl -s $url | docker run -i --rm hatake/readability-cli --url "$url" | jq .
 {
   "title": "FIFA World Cup 2022: Meet the full list of qualified countries and their groups",
