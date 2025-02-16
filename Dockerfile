@@ -4,4 +4,4 @@ COPY ./package*.json ./
 RUN npm ci
 
 COPY src src
-ENTRYPOINT ["node", "src/cli.js"]
+ENTRYPOINT ["src/cli.js"]

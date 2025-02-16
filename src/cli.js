@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 const Readability = require('@mozilla/readability').Readability;
 const JSDOM = require('jsdom').JSDOM;
