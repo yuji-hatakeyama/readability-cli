@@ -33,6 +33,6 @@ Options
 ```
 
 ```
-% url="https://www.marca.com/en/world-cup/2022/06/14/62a8fcc246163fdc138b45f1.html"; curl -s $url | docker run -i hatake/readability-cli --url "$url" | jq .excerpt
+% url="https://www.marca.com/en/world-cup/2022/06/14/62a8fcc246163fdc138b45f1.html"; curl -s $url | docker run -i --rm hatake/readability-cli --url "$url" | jq .excerpt
 "With Costa Rica beating New Zealand for the final place in the 2022 World Cup that will happen in Qatar by the end of the year. We finally have a full list of nations inside their"
 ```
