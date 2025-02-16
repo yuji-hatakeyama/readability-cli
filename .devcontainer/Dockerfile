@@ -1,5 +1,5 @@
 FROM node:18-slim
-RUN apt update && apt install -y git
+RUN apt update && apt install -y git curl jq
 
 WORKDIR /workspace
 COPY ./package*.json ./
